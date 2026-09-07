@@ -101,6 +101,8 @@ Handles the connection between Python and MySQL using PyMySQL. The application c
 🔄 System Workflow
 
 
+
+
              ┌──────────────────────┐
              │       Start App      │
              └──────────┬───────────┘
@@ -304,6 +306,9 @@ db.py
 Handles the connection between Python and MySQL using PyMySQL. The application connects to the pharmacy_db database.
 
 🔄 System Workflow 
+
+
+
 
 
              ┌──────────────────────┐
