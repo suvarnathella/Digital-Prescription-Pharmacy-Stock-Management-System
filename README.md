@@ -22,12 +22,16 @@ Stores the prescription record
 This creates a more organized and reliable pharmacy management workflow.
 
 ✨ Features
+
+
 🏥 Prescription Management
 Issue digital prescriptions
 Store patient name and prescription details
 Record medicine quantity dispensed
 Automatically calculate prescription cost
 View prescription history
+
+
 💊 Medicine Inventory Management
 View all medicines
 Add new medicines
@@ -35,6 +39,8 @@ Restock existing medicines
 Search medicines by name
 Update medicine prices
 Delete medicines from inventory
+
+
 ⚠️ Stock & Expiry Monitoring
 Identify medicines with low stock
 Detect expired medicines
@@ -51,6 +57,7 @@ Display a financial summary
 The sales report is generated directly from prescription records using the total prescription count and accumulated prescription cost.
 
 🛠️ Tech Stack
+
 | Technology       | Purpose                        |
 | ---------------- | ------------------------------ |
 | **Python**       | Application logic and CLI      |
@@ -222,12 +229,14 @@ Stores the prescription record
 This creates a more organized and reliable pharmacy management workflow.
 
 ✨ Features
+
 🏥 Prescription Management
 Issue digital prescriptions
 Store patient name and prescription details
 Record medicine quantity dispensed
 Automatically calculate prescription cost
 View prescription history
+
 💊 Medicine Inventory Management
 View all medicines
 Add new medicines
@@ -235,6 +244,7 @@ Restock existing medicines
 Search medicines by name
 Update medicine prices
 Delete medicines from inventory
+
 ⚠️ Stock & Expiry Monitoring
 Identify medicines with low stock
 Detect expired medicines
@@ -291,7 +301,7 @@ db.py
 
 Handles the connection between Python and MySQL using PyMySQL. The application connects to the pharmacy_db database.
 
-🔄 System Workflow
+🔄 System Workflow 
              ┌──────────────────────┐
              │       Start App      │
              └──────────┬───────────┘
